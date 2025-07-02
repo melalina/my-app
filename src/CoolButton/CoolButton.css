@@ -1,0 +1,40 @@
+.cool-button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  padding: 8px 20px;
+  font-size: 16px;
+  background: #e0e0e0;
+  color: #222;
+}
+
+.cool-button--pretty {
+  background: #0070c9;
+  color: #fff;
+}
+.cool-button--pretty:hover {
+  background: #005fa3;
+}
+
+.cool-button--default {
+  background: #e0e0e0;
+  color: #222;
+}
+.cool-button--default:hover {
+  background: #cccccc;
+}
+
+.cool-button--big {
+  font-size: 20px;
+  padding: 14px 32px;
+}
+.cool-button--medium {
+  font-size: 16px;
+  padding: 8px 20px;
+}
+.cool-button--small {
+  font-size: 13px;
+  padding: 5px 12px;
+} 
