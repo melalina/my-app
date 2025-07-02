@@ -1,0 +1,19 @@
+.mainCentered {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainMinHeight {
+  min-height: 80vh;
+}
+
+.homeContainer {
+  display: flex;
+  min-height: 80vh;
+}
+
+.homeMain {
+  flex: 1;
+} 
