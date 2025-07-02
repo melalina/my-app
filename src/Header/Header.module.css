@@ -1,32 +1,88 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 16px 32px;
-  background: #f5f5f5;
+  justify-content: center;
+  height: 64px;
   border-bottom: 1px solid #e0e0e0;
-  gap: 24px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2d2d2d;
-}
-.actions {
+
+.container {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
-.actionBtn {
-  background: #0077cc;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 18px;
-  font-size: 1rem;
-  cursor: pointer;
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+  color: #0070c9;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  min-width: 320px;
+  max-width: 400px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.menuLink {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  padding: 8px 12px;
+  border-radius: 8px;
   transition: background 0.2s;
 }
-.actionBtn:hover {
-  background: #005fa3;
+.menuLink:hover {
+  background: #f5f7fa;
+  color: #0070c9;
+}
+
+.cartIcon {
+  font-size: 21px;
+  color: #0070c9;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.profileIcon {
+  font-size: 21px;
+  color: #222;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.iconImg {
+  width: 22px;
+  height: 22px;
+  margin-right: 6px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+
+.iconImgSmall {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  margin-bottom: 2px;
+  vertical-align: middle;
 } 

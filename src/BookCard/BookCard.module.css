@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  max-width: 220px;
+  height: 370px;
+  margin: 0 auto;
+  padding: 20px 16px 16px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fff;
+}
+.card:hover {
+  border-color: #0070c9;
+}
+.card > *:not(:last-child) {
+  margin-bottom: 8px;
+}
+.cover {
+  width: 120px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: #f0f2f5;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin: 8px 0 4px 0;
+  text-align: center;
+}
+.author {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0070c9;
+  margin-bottom: 12px;
+}
+.spacer {
+  flex-grow: 1;
+  width: 100%;
+}
+.button {
+  align-self: center;
+  margin-top: auto;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #0070c9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button:hover {
+  background: #005fa3;
+}
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}

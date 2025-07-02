@@ -1,0 +1,64 @@
+.detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 40px 32px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+.cover {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f0f2f5;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 1;
+}
+.title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+}
+.author {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 8px;
+}
+.price {
+  font-size: 21px;
+  font-weight: 600;
+  color: #0070c9;
+  margin-bottom: 16px;
+}
+.button {
+  width: 120px;
+  min-width: 0;
+  background: #0070c9;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 12px;
+}
+.button:hover {
+  background: #005fa3;
+}
+.description {
+  font-size: 17px;
+  color: #222;
+  margin-top: 12px;
+  line-height: 1.6;
+}

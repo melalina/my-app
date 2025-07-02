@@ -1,0 +1,59 @@
+.sidebar {
+  display: block;
+  width: 260px;
+  min-width: 200px;
+  height: fit-content;
+  margin: 32px 24px 32px 0;
+  padding: 24px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fff;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 18px;
+}
+.genreList {
+  list-style: none;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+.genreItem {
+  margin-bottom: 2px;
+}
+.genreLink {
+  display: block;
+  padding: 7px 12px;
+  border-radius: 6px;
+  color: #0070c9;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.genreLink:hover {
+  background: #f5f7fa;
+  color: #005fa3;
+}
+.active {
+  background: #f0f6ff;
+  color: #222;
+  font-weight: 600;
+}
+.divider {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 10px 0 8px 0;
+}
+.expand {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 0 0 0;
+  border: none;
+  background: none;
+  color: #0070c9;
+  font-size: 16px;
+  cursor: pointer;
+}

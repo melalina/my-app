@@ -1,0 +1,45 @@
+.profile {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px 32px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fff;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0070c9;
+  margin-bottom: 18px;
+}
+.info {
+  margin-bottom: 24px;
+}
+.info p {
+  font-size: 17px;
+  color: #222;
+  margin: 6px 0;
+}
+.orders {
+  margin-top: 18px;
+}
+.ordersTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
+}
+.orderList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.orderItem {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #222;
+  font-size: 17px;
+}
+.orderItem:last-child {
+  border-bottom: none;
+}
