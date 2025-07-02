@@ -1,18 +1,18 @@
 import styles from './BookCard.module.css';
+import { Link } from 'react-router-dom';
+import CoolButton from '../CoolButton/CoolButton';
 
-export default function BookCard() {
+export default function BookCard({ book }) {
   return (
-    <div>
-      <div>Изображение книги</div>
-      <div>
-        <h3>Название книги</h3>
-        <p>Автор книги</p>
-        <p>Описание книги</p>
-        <div>
-          <span>Цена книги</span>
-          <button>В корзину</button>
-        </div>
-      </div>
-    </div>
+    <Link to={`/book/${book.id}`} className={`${styles.card} ${styles.cardLink}`}>
+      <img className={styles.cover} src={book.cover} alt={book.title} />
+      <div className={styles.title}>{book.title}</div>
+      <div className={styles.author}>{book.author}</div>
+      <div className={styles.spacer}></div>
+      <div className={styles.price}>{book.price} ₽</div>
+      <CoolButton theme="pretty" size="small" onClick={e => { e.preventDefault(); /* обработка добавления в корзину */ }}>
+        В корзину
+      </CoolButton>
+    </Link>
   );
 } 

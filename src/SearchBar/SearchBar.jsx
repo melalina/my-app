@@ -1,13 +1,17 @@
 import styles from './SearchBar.module.css';
+import CoolButton from '../CoolButton/CoolButton';
 
 export default function SearchBar() {
   return (
-    <form>
+    <form className={styles.searchForm}>
       <input
         type="text"
-        placeholder="Поиск книг..."
+        placeholder="Найти..."
+        className={styles.searchInput}
       />
-      <button type="submit">Найти</button>
+      <CoolButton theme="default" size="medium" type="submit">
+        <img src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="Поиск" className={styles.searchIcon} />
+      </CoolButton>
     </form>
   );
 } 
